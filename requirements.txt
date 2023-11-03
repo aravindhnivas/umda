@@ -1,7 +1,18 @@
--e git+https://github.com/laserkelvin/mol2vec.git@850d944d5f48a58e26ed0264332b5741f72555aa#egg=mol2vec
-
-loguru
-networkx
-gensim==3.8.3       # large api changes in 4.0.0
-palettable
-
+# setuptools==49.6.0
+# numpy===1.20.2
+loguru==0.5.3
+# scikit-learn==0.24.1
+umap-learn==0.5.1
+numba==0.53.1
+rdkit
+dask==2021.04.0
+dask-ml==1.8.0 
+h5py==3.2.1
+joblib==1.0.1
+matplotlib
+pandas==1.2.4
+networkx==2.5.1
+gensim==3.8.3
+bokeh
+git+https://github.com/laserkelvin/mol2vec.git@850d944d5f48a58e26ed0264332b5741f72555aa#egg=mol2vec
+# -e .
