@@ -12,7 +12,7 @@ figure showing the amount of explained variance as a
 function of the number of components/dimensions kept.
 """
 
-data = h5py.File(paths.get("processed").joinpath("smiles_embeddings_300.h5", "r")
+data = h5py.File(paths.get("processed").joinpath("smiles_embeddings_300.h5", "r"))
 
 # load mol2vec embeddings in
 X = data["vectors"][:]
